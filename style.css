@@ -1,0 +1,192 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    color: #5D5D7D;
+}
+
+.caixa-mae {
+
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.caixa-esquerda {
+
+    display: inline-block;
+    width: 60%;
+    padding-left: 136px;
+    margin-top: 15%;
+
+
+}
+
+
+.caixa-direita {
+
+    display: inline-block;
+    background-color: rgba(93, 93, 125, 0.16);
+    Width: 40%;
+    Height: 100vh;
+    position: absolute;
+    
+}
+
+.caixa-direita img {
+
+    top: 20%;
+    right: 140px;
+    position: relative
+}
+
+
+.caixa-direita header {
+
+    margin: 24px 0 0 57px;
+}
+
+a {
+
+    cursor: pointer;
+    line-height: 41px;
+    margin-right: 41px;
+    font-size: 28px
+}
+
+
+
+a:nth-child(2) {
+
+    opacity: 0.4;
+
+}
+
+a:hover {
+
+    opacity: 0.4;
+}
+
+a:active {
+
+    opacity: 0.8;
+}
+
+
+
+.caixa-esquerda h1 {
+
+
+    width: 368px;
+    font-size: 70px;
+    line-height: 80px;
+
+}
+
+.caixa-esquerda p {
+
+    font-size: 28px;
+    line-height: 48px;
+    opacity: 0.6;
+    margin-top: 15px 0;
+    margin-bottom: 15px;
+    width: 540px;
+
+}
+
+
+.caixa-esquerda button {
+
+    Width: 269px;
+    Height: 62px;
+    line-height: 35.57px;
+    font-size: 24px;
+    color: #ffffff;
+    background: #9499EA;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.caixa-esquerda button:hover {
+
+    opacity: 0.8;
+
+}
+
+.caixa-esquerda button:active {
+
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 900px){
+
+
+    .caixa-esquerda {
+
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .caixa-direita {
+
+        display: block;
+        Height: auto;
+        Width: 100%;
+        position: static;
+        padding: 40px;
+
+    }
+
+    .caixa-direita img {
+
+        position: static;
+        max-width: 90%;
+
+    }
+
+    .caixa-direita header {
+
+        display: none;
+       
+    }
+
+
+    .caixa-esquerda h1 {
+
+        font-size: 36px;
+        line-height: 52px;
+        width: auto;
+        margin: 58px 50px 0 50px;
+        text-align: center;
+    }
+
+    .caixa-esquerda p {
+
+        margin: 15px 40px;
+        width: auto;
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+
+    }
+
+    .caixa-esquerda button {
+
+        margin: 0 auto;
+        display: block;
+
+    }
+
+
+
+
+}
